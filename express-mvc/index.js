@@ -6,8 +6,8 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
     res.send('Hello world!');
-})
+});
 
 app.listen(PORT, () => {
     console.log(`Server started successfully and listening on port: ${PORT}`);
-})
+});
